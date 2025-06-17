@@ -36,3 +36,25 @@ print(f"Client Age: {client_age}")
 print(f"Is Active: {is_active}")
 print(f"Client Address: {client_address}")
 print(f"Client Phone: {client_phone}")
+
+
+
+
+
+# ::::::::::::::: Hotel Booking Example ::::::::::::::::
+
+hotel_client_name = "Alice Smith"
+hotel_client_booking_days = 5
+hotel_booking_price = 1200.0
+hotel_ocean_view = True
+
+
+print(f"╔════════════════════════════════╗")
+print(f"║       Hotel Booking Info       ║")
+print(f"╠════════════════════╦═══════════╣")
+print(f"║ Client's Name     ║ {hotel_client_name:<10}║")
+print(f"║ Booking Days      ║ {hotel_client_booking_days:<10} ║")
+print(f"║ Price Per Day ($) ║ {hotel_booking_price:<10.2f} ║")
+print(f"║ Ocean View        ║ {str(hotel_ocean_view):<10} ║")
+print(f"╚════════════════════╩═══════════╝")
+
