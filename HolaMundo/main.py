@@ -58,3 +58,26 @@ print(f"║ Price Per Day ($) ║ {hotel_booking_price:<10.2f} ║")
 print(f"║ Ocean View        ║ {str(hotel_ocean_view):<10} ║")
 print(f"╚════════════════════╩═══════════╝")
 
+
+
+# ::::::::::::::: Ecommerce ::::::::::::::::
+ecommerce_product_name = "Wireless Headphones"
+ecommerce_product_price = 99.99
+ecommerce_product_stock = 20
+ecommerce_product_available = True
+
+print(f"╔════════════════════════════════════════════╗")
+print(f"║          Ecommerce Product Info            ║")
+print(f"╠═══════════════════════╦════════════════════╣")
+print(f"║ Product Name         ║ {ecommerce_product_name:<15} ║")
+print(f"║ Product Price ($)    ║ {ecommerce_product_price:<15.2f}     ║")
+print(f"║ Product Stock        ║ {ecommerce_product_stock:<15}     ║")
+print(f"║ Product Available    ║ {str(ecommerce_product_available):<15}     ║")
+print(f"╚═══════════════════════╩════════════════════╝")
+
+
+
+
+
+
+
