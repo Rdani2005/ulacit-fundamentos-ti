@@ -1,10 +1,19 @@
+"""
+    Program that allows the user to create a list with the names of their friends.
+    
+    Then, it asks for a name and checks if it is in the list, displaying an appropriate message.
+
+    Author: Daniel Sequeira  
+    Date: July 21, 2025
+"""
+
 from typing import List
 
 STOP_SIGNAL: str = "listo"
 
 class Friend:
     def __init__(self, name: str) -> None:
-        self.name: str = name
+        self.__name: str = name
 
     def get_name(self) -> str:
         """
@@ -13,7 +22,7 @@ class Friend:
             Returns:
                 str: The name of the friend.
         """
-        return self.name
+        return self.__name
 
     def say_hello(self) -> str:
         """
@@ -22,7 +31,7 @@ class Friend:
             Returns:
                 str: A greeting message.
         """
-        return f"Hola, yo soy {self.name}!"
+        return f"Hola, yo soy {self.get_name()}!"
 
     def __str__(self) -> str:
         """
@@ -31,7 +40,7 @@ class Friend:
             Returns:
                 str: The name of the friend.
         """
-        return self.name.strip()
+        return self.get_name().strip()
 
     def __eq__(self, other: object):
         """
@@ -45,7 +54,7 @@ class Friend:
         """
         if not isinstance(other, Friend):
             return False
-        return self.name.strip() == other.name.strip()
+        return self.get_name().strip() == other.get_name().strip()
 
 
 
@@ -57,7 +66,7 @@ class FriendsAnalyzer:
             friends (List[Friends]): A list of Friends objects.
     """
     def __init__(self, friends: List[Friend]) -> None:
-        self.friends: List[Friend] = friends
+        self.__friends: List[Friend] = friends
 
     def get_friends(self) -> List[Friend]:
         """
@@ -66,7 +75,7 @@ class FriendsAnalyzer:
             Returns:
                 List[Friends]: The list of Friends objects.
         """
-        return self.friends
+        return self.__friends
 
     def greet_friends(self) -> List[str]:
         """
@@ -75,19 +84,19 @@ class FriendsAnalyzer:
             Returns:
                 List[str]: A list of greeting messages.
         """
-        return [friend.say_hello() for friend in self.friends]
+        return [friend.say_hello() for friend in self.get_friends()]
 
     def is_friend_on_list(self, friend: Friend) -> bool:
         """
             Check if a specific friend is in the list.
             
             Args:
-                friend (Friends): The friend to check.
+                friend (Friend): The friend to check.
                 
             Returns:
                 bool: True if the friend is in the list, False otherwise.
         """
-        return friend in self.friends
+        return friend in self.get_friends()
 
 class FriendsAnalyzerFactory:
     """
