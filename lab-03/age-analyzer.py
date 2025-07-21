@@ -1,3 +1,16 @@
+"""
+    Program that prompts the user to input the ages of 5 people and stores them in a list.
+    
+    Then, it displays:
+        - The complete list of ages
+        - The average age
+        - The number of people who are adults (age ≥ 18)
+
+    Author: Daniel Sequeira
+    Date: July 21, 2025
+"""
+
+
 from typing import List
 
 class AgeAnalyzer:
