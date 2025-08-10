@@ -1,0 +1,12 @@
+[
+    {
+        "id": "CUR001",
+        "description": "Fundamentos de TI",
+        "max_students": 1
+    },
+    {
+        "id": "CUR002",
+        "description": "Matematicas Discretas",
+        "max_students": 2
+    }
+]

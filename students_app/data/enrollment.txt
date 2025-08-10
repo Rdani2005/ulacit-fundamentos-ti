@@ -1,0 +1,10 @@
+[
+    {
+        "student_id": "EST001",
+        "course_id": "CUR001"
+    },
+    {
+        "student_id": "EST002",
+        "course_id": "CUR002"
+    }
+]
