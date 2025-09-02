@@ -37,4 +37,6 @@ class CourseRepository:
             return "000"
         with open(self.filename, 'r', encoding='utf-8') as f:
             data = json.load(f)
+            if not data:
+                return "000"
             return data[-1]['id']

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Narina",
+        "author": "CS Lewis",
+        "year": "1990",
+        "available": true
+    },
+    {
+        "id": 2,
+        "title": "Principe Caspian",
+        "author": "1990",
+        "year": "1990",
+        "available": false
+    }
+]

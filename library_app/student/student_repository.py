@@ -26,16 +26,16 @@ class StudentRepository:
             data = json.load(f)
             return [StudentParser.from_dict_to_student(student) for student in data]
 
-    def get_last_student_id(self) -> str:
+    def get_last_student_id(self) -> int:
         if not os.path.exists(self.filename):
-            return "000"
+            return 0
         with open(self.filename, 'r', encoding='utf-8') as f:
             data = json.load(f)
             if not data:
-                return "000"
+                return 0
             return data[-1]['id']
 
-    def get_student_by_id(self, student_id: str) -> Optional[Student]:
+    def get_student_by_id(self, student_id: int) -> Optional[Student]:
         with open(self.filename, 'r', encoding='utf-8') as f:
             data = json.load(f)
             students = [StudentParser.from_dict_to_student(student) for student in data]

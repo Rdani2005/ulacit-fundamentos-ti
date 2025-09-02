@@ -25,7 +25,7 @@ class EnrollmentManager:
         if course is None or student is None:
             print("Curso o estudiante no se encuentra registrados en nuestra base de datos.")
             return None
-        if EnrollmentValidator.validate_student_has_not_enrolled_to_course(
+        if EnrollmentValidator.student_already_enrolled(
                 student,
                 course,
                 self.enrollments

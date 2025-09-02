@@ -1,0 +1,47 @@
+[
+    {
+        "id": "11223344",
+        "name": "Laptop",
+        "category": "Tec",
+        "inStock": 1,
+        "price": "100",
+        "description": "Laptop para estudiantes",
+        "active": false
+    },
+    {
+        "id": "1234",
+        "name": "Computadora",
+        "category": "Casa",
+        "inStock": 6,
+        "price": "200",
+        "description": "Computadora para casa",
+        "active": true
+    },
+    {
+        "id": "Tablet",
+        "name": "Tablet",
+        "category": "Casa",
+        "inStock": 11,
+        "price": "50",
+        "description": "Una tablet muy inteligente",
+        "active": true
+    },
+    {
+        "id": "123456",
+        "name": "Electrolit",
+        "category": "Suero",
+        "inStock": 20,
+        "price": "100",
+        "description": "Suero hidratante para ejercicio",
+        "active": true
+    },
+    {
+        "id": "12345",
+        "name": "Computadora",
+        "category": "Electronico",
+        "inStock": 1,
+        "price": "170000",
+        "description": "Computadora Marca Dell",
+        "active": true
+    }
+]

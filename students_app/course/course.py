@@ -20,7 +20,7 @@ class Course:
         self.__description = description
         self.__max_students = max_students
 
-    def validate_new_student(self, current_enrollment_amounts: int) -> bool:
+    def validate_course_is_not_available(self, current_enrollment_amounts: int) -> bool:
         return current_enrollment_amounts >= self.__max_students
 
     def __str__(self):

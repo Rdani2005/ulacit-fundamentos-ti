@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "name": "Daniel",
+        "last_name": "Sequeira",
+        "phone_number": "60801519",
+        "email": "dricardosc15@hotmail.com"
+    }
+]

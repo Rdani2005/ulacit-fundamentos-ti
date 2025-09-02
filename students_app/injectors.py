@@ -6,7 +6,6 @@ from enrollment.enrollment_repository import EnrollmentRepository
 from student.student_repository import StudentRepository
 from student.students_manager import StudentManager
 
-
 class SingletonMeta(type):
     _instances = {}
 

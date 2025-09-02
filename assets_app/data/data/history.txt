@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "type": "Producto Creado",
+        "date": "2025-08-18T11:31:27.797141",
+        "stock": 10,
+        "reason": "Agregado nuevo producto.",
+        "user": "Rdani2005",
+        "product_id": "11223344"
+    },
+    {
+        "id": 2,
+        "type": "STOCK REDUCIDO",
+        "date": "2025-08-18T11:35:11.452501",
+        "stock": 1,
+        "reason": "Venta",
+        "user": "Rdani2005",
+        "product_id": "11223344"
+    },
+    {
+        "id": 3,
+        "type": "STOCK REDUCIDO",
+        "date": "2025-08-18T11:44:56.535850",
+        "stock": 8,
+        "reason": "Venta a empresa",
+        "user": "Josue",
+        "product_id": "11223344"
+    },
+    {
+        "id": 4,
+        "type": "PRODUCTO ELIMINADO",
+        "date": "2025-08-18T11:47:17.525712",
+        "stock": 0,
+        "reason": "Ya no lo vamos a vender",
+        "user": "Josue",
+        "product_id": "11223344"
+    },
+    {
+        "id": 5,
+        "type": "Producto Creado",
+        "date": "2025-08-18T12:13:24.183005",
+        "stock": 15,
+        "reason": "Agregado nuevo producto.",
+        "user": "Michelle",
+        "product_id": "1234"
+    },
+    {
+        "id": 6,
+        "type": "STOCK REDUCIDO",
+        "date": "2025-08-18T12:14:27.458116",
+        "stock": 9,
+        "reason": "Venta",
+        "user": "Michelle",
+        "product_id": "1234"
+    },
+    {
+        "id": 7,
+        "type": "Producto Creado",
+        "date": "2025-08-18T12:17:43.728536",
+        "stock": 2,
+        "reason": "Agregado nuevo producto.",
+        "user": "Leo",
+        "product_id": "Tablet"
+    },
+    {
+        "id": 8,
+        "type": "STOCK REDUCIDO",
+        "date": "2025-08-18T12:19:17.965587",
+        "stock": 1,
+        "reason": "Venta",
+        "user": "Leo",
+        "product_id": "Tablet"
+    },
+    {
+        "id": 9,
+        "type": "STOCK AUMENTADO",
+        "date": "2025-08-18T12:19:41.454245",
+        "stock": 10,
+        "reason": "Compra de insumos",
+        "user": "Leo",
+        "product_id": "Tablet"
+    },
+    {
+        "id": 10,
+        "type": "Producto Creado",
+        "date": "2025-08-18T18:34:11.010244",
+        "stock": 20,
+        "reason": "Agregado nuevo producto.",
+        "user": "Michelle",
+        "product_id": "123456"
+    },
+    {
+        "id": 11,
+        "type": "Producto Creado",
+        "date": "2025-08-18T18:45:13.933263",
+        "stock": 15,
+        "reason": "Agregado nuevo producto.",
+        "user": "Josue",
+        "product_id": "12345"
+    },
+    {
+        "id": 12,
+        "type": "STOCK REDUCIDO",
+        "date": "2025-08-18T18:50:10.627484",
+        "stock": 10,
+        "reason": "Venta",
+        "user": "Josue",
+        "product_id": "12345"
+    },
+    {
+        "id": 13,
+        "type": "PRODUCTO ELIMINADO",
+        "date": "2025-08-18T18:51:35.884582",
+        "stock": 0,
+        "reason": "Ya no lo vamos a vender mas",
+        "user": "Josue",
+        "product_id": "11223344"
+    },
+    {
+        "id": 14,
+        "type": "STOCK AUMENTADO",
+        "date": "2025-08-18T18:53:41.223879",
+        "stock": 3,
+        "reason": "Ingresos de mercaderia",
+        "user": "Josue",
+        "product_id": "12345"
+    },
+    {
+        "id": 15,
+        "type": "STOCK REDUCIDO",
+        "date": "2025-08-18T18:54:12.956032",
+        "stock": 7,
+        "reason": "Venta",
+        "user": "Josue",
+        "product_id": "12345"
+    }
+]
